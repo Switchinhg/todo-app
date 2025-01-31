@@ -63,7 +63,7 @@ export default function NotaView() {
         <div className={`container ${styles.section}`}>
             <div className={styles.acciones}>
                 <p>Acciones:</p>            
-                <button className={`btn`} onClick={()=>editNota(id)}>Terminada</button>
+                <button className={`btn ${nota.done?"btn_disabled":""}`} onClick={()=>editNota(id)} disabled={nota.done}>Terminada</button>
                 <button className={`btn`} onClick={()=>deleteNota(id)}>Eliminar</button>
             </div>
             <div>
