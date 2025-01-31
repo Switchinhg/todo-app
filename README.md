@@ -1,6 +1,9 @@
 # Notas App - Santiago Font
 ## Proyecto full stack de manejo de notas
 
+## Hosteado en Netlify y Render -> https://sf-todo-app.netlify.app/
+
+
 ## Frontend - Rutas
 
     / - Inicio de la página
