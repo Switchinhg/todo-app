@@ -1,0 +1,29 @@
+.informacion{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.acciones{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    align-items: center;
+    width: 100%;
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .acciones{
+        flex-direction: column;
+        gap: 10px;
+        align-self: start;
+    }
+    .acciones button{
+        width: 100%;
+    }
+  }

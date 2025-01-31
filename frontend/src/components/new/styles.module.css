@@ -1,0 +1,16 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.formGroup{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.formGroup input, .formGroup textarea{
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    resize: none;
+}

@@ -1,0 +1,29 @@
+.item{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border: solid rgba(0, 0, 0, 0.151) 1px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.089);
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
+.li{
+    list-style-type: none;
+}
+.li:hover{
+    background-color: rgba(0, 0, 0, 0.027);
+}
+.ok_done{
+    background-color: greenyellow;
+}
+.ok_notDone{
+    background-color: rgb(255, 197, 71);
+}
+.ball{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
